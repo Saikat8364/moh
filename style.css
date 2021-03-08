@@ -1,0 +1,80 @@
+/*Elements*/
+body {
+  background-color:  #08d9d6;
+  width: 100%;
+}
+
+h1 {
+  margin: auto;
+  text-align: center;
+  padding: 3rem 0;
+  font-size: 4rem;
+  color: #252a34;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  padding: 0 1rem;
+  text-align: left;
+  color: #252a34;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+  margin-top: 3rem;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*Class*/
+.main {
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+.container {
+  background-color: #ffc7c7;
+  display: inline-block;
+  width: 25%;
+  height: auto;
+  margin-right: 2rem;
+  text-align: right;
+  border: 2px solid black;
+}
+.sub-head{
+  background: #fbd46d;
+  text-align: center;
+  font-size: 1.7rem;
+  margin: 0 0;
+  border: 1px solid black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 991px){
+  .container{
+    width: 40%;
+  }
+  .bottom{
+    margin-top: 2rem;
+    width: 85%;
+  }
+}
+@media screen and (max-width: 767px) {
+  h1{
+    font-size: 2rem;
+    padding: 1.5rem;
+  }
+  .container{
+    width: 95%;
+    margin-bottom: 2rem;
+  }
+  .bottom{
+    width: 95%;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .main{
+    padding: 1rem 1rem;
+  }
+}
